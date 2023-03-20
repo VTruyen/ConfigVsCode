@@ -1,0 +1,50 @@
+[
+    {
+        "key": "delete",
+        "command": "workbench.action.terminal.kill"
+    },
+    {
+        "key": "Alt+Enter",
+        "command": "editor.action.quickFix"
+    },
+    {
+        "key": "tab",
+        "command": "search.action.focusNextSearchResult",
+        "when": "hasSearchResult || inSearchEditor"
+    },
+    {
+        "key": "f4",
+        "command": "-search.action.focusNextSearchResult",
+        "when": "hasSearchResult || inSearchEditor"
+    },
+    {
+        "key": "shift+tab",
+        "command": "search.action.focusPreviousSearchResult",
+        "when": "hasSearchResult || inSearchEditor"
+    },
+    {
+        "key": "shift+f4",
+        "command": "-search.action.focusPreviousSearchResult",
+        "when": "hasSearchResult || inSearchEditor"
+    },
+    {
+        "key": "oem_period",
+        "command": "search.action.openInEditor",
+        "when": "hasSearchResult && searchViewletFocus"
+    },
+    {
+        "key": "alt+enter",
+        "command": "-search.action.openInEditor",
+        "when": "hasSearchResult && searchViewletFocus"
+    },
+    {
+        "key": "s f",
+        "command": "workbench.view.search",
+        "when": "workbench.view.search.active && neverMatch =~ /doesNotMatch/"
+    },
+    {
+        "key": "ctrl+shift+f",
+        "command": "-workbench.view.search",
+        "when": "workbench.view.search.active && neverMatch =~ /doesNotMatch/"
+    }
+]

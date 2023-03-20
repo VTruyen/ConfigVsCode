@@ -1,0 +1,91 @@
+{
+  "workbench.colorTheme": "GitHub Dark Dimmed",
+  "workbench.iconTheme": "material-icon-theme",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true
+  },
+  "python.formatting.provider": "none",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["lineBreakInsert"],
+      "silent": true
+    },
+    {
+      "before": ["<leader>", "a"],
+      "after": ["A"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "after": ["F"]
+    },
+    {
+      "before": ["<leader>", "t"],
+      "commands": ["workbench.action.terminal.new"]
+    },
+    {
+      "before": ["s", "f"],
+      "commands": ["workbench.view.search"]
+    },
+    {
+      "before": ["<leader>", "i"],
+      "after": ["I"]
+    },
+    {
+      "before": ["z"],
+      "after": ["g", "e"]
+    },
+    {
+      "before": ["leader", "u"],
+      "after": ["g", "U", "a", "w"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": ["z"],
+      "after": ["g", "e"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-e>": false,
+    "<C-v>": false
+  },
+  "editor.lineNumbers": "relative",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "background.fullscreen": {
+    "image": "file:///C:/Users/Victor/Desktop/1f7d44d475ff375e7bca99c29927d986.jpg",
+    "opacity": 0.85,
+    "size": "cover"
+  },
+  "autoDocstring.docstringFormat": "sphinx"
+}
